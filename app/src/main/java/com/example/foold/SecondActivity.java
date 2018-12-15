@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import org.litepal.tablemanager.Connector;
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -16,6 +17,13 @@ public class SecondActivity extends AppCompatActivity {
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Connector.getDatabase();
+
+
+
+
+
+
 //                Intent intent = new Intent(SecondActivity.this,MainActivity.class);
 //                startActivity(intent);
                 finish();
