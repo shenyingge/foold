@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="请您选择喜欢的菜"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@android:color/background_dark"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/hysc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蚝油生菜"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="2dp"/>
+
+        <Button
+                android:id="@+id/xhsjd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="西红柿鸡蛋汤"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+
+        <Button
+                android:id="@+id/srxl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蒜蓉西蓝花"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/lbhd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="凉拌海带丝"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/szr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水煮肉片"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="2dp"/>
+
+        <Button
+                android:id="@+id/lzj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辣子鸡丁"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/hgr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="回锅肉"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/slt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="酸辣汤"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/tclj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="糖醋里脊"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="2dp"/>
+
+        <Button
+                android:id="@+id/bbz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="八宝粥"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/bbf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="八宝饭"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/kljc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可乐鸡翅"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/ssgy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="松鼠桂鱼"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="2dp"/>
+
+        <Button
+                android:id="@+id/scy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="酸菜鱼"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/yxrs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鱼香肉丝"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/sltds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="酸辣土豆丝"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/mlxg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="麻辣香锅"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="2dp"/>
+
+        <Button
+                android:id="@+id/mpdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="麻婆豆腐"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/ksj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="口水鸡"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/pc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="泡菜"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/clbc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="醋溜白菜"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+        <Button
+                android:id="@+id/pjfz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="泡椒凤爪"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="2dp"/>
+
+        <Button
+                android:id="@+id/lst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="罗宋汤"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+
+        <Button
+                android:id="@+id/sgz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水果粥"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/xgyc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="香菇油菜"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="5dp"/>
+        <Button
+                android:id="@+id/gbdj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="干煸四季豆"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="2dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+                android:id="@+id/confirm_wenjuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="foold"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginLeft="80dp"/>
+        <Button
+                android:id="@+id/back_wenjuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
