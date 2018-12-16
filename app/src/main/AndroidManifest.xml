@@ -22,7 +22,7 @@
 
         <activity android:name=".Register">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -30,7 +30,7 @@
 
         <activity android:name=".WenjuanActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -38,7 +38,7 @@
 
         <activity android:name=".JieguoActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
