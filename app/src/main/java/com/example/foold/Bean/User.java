@@ -1,15 +1,17 @@
 package com.example.foold.Bean;
 
-public class user {
-    private int id;
+import org.litepal.crud.LitePalSupport;
+
+public class User extends LitePalSupport {
+    private String id;
     private String name;
     private String password;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

@@ -1,6 +1,6 @@
 package com.example.foold.Bean;
 
-public class tuijiancai {
+public class Tuijiancai {
 
     private int id;
     private String name;

@@ -17,7 +17,6 @@ public class SecondActivity extends AppCompatActivity {
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Connector.getDatabase();
 
 
 
