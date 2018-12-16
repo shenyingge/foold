@@ -89,7 +89,7 @@ public class Login extends Activity {
                         db.insert("tuijiancai",null,value);
 
 
-                        Toast.makeText(Login.this, "jianbiao成功", Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(Login.this, "jianbiao成功", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(Login.this, WenjuanActivity.class);
 
                         startActivity(intent);

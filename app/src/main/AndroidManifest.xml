@@ -22,7 +22,7 @@
 
         <activity android:name=".Register">
             <intent-filter>
-                
+
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

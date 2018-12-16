@@ -322,7 +322,7 @@ public class WenjuanActivity extends Activity
                     if (zongfen > max) {
                         max = zongfen;
                         temp=i;
-                        Toast.makeText(WenjuanActivity.this,"两次密码输入不一致，请重新输入",Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(WenjuanActivity.this,"成功运行",Toast.LENGTH_SHORT).show();
                     }
                 }
                 //String xuhao_s =String.valueOf(temp);
